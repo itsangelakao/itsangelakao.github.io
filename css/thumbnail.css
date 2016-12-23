@@ -1,0 +1,30 @@
+/* 圖片模組 */
+
+.thumbnail {
+    border: 0px solid #ddd;
+    padding: 0px;
+    /*    border-radius: 5px;*/
+    overflow: hidden;
+}
+
+.thumbnail img {
+    /* RWD Image*/
+    max-width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.thumbnail:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.thumbnail .caption h3 {
+    font-size: 1em;
+}
+
+.thumbnail .caption p {
+    font-size: 0.75em;
+}
